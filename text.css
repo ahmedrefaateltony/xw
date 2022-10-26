@@ -1,0 +1,296 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #222;
+    margin: auto;
+    position: relative;
+}
+
+
+
+.h1 {
+    margin: 20px 400px;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+
+
+.pro {
+    width: 300px auto;
+    height: 200px auto ;
+    margin: 50px 100px;
+
+
+}
+
+
+input {
+    color:white;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: #111;
+    margin: 5px 0px;
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+.salry input {
+    width: 22%;
+}
+
+.pro input[type="submit"] {
+    background-color: rgba(139, 0, 139, 0.836);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.search {
+    margin:0px 100PX;
+
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.button button {
+    width: 40%;
+    margin: 5px 100px;
+    
+    height: 30px;
+}
+
+table {
+    width: 90%;
+    margin: 10px 0px;
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+th , td {
+    padding: 5px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: rgba(139, 0, 139, 0.836);
+    border-radius: 5px;
+    color: wheat;
+    
+
+
+}
+
+#total {
+    background-color: rgb(207, 8, 8);
+    padding: 8px 5px ;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#total::before {
+    content: "total";
+}
+
+
+
+
+/* add to calss list  */
+
+
+.add {
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    color :white;
+    margin: 10px 400px ;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 110px;
+    left: 300px;
+
+}
+
+
+.add::before {
+    content: "تم الاضافه";
+
+}
+
+
+
+@media  (max-width:780px) {
+
+
+    
+    
+    
+    .h1 {
+        margin: 0px 100px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 10px;
+    
+    
+    }
+    
+    
+    .pro {
+        width: 90%;
+        height: 200px auto ;
+        margin:5px 20px;
+    
+    
+    }
+    
+    
+    input {
+        color:white;
+        font-size: 20px;
+        width: 100% auto;
+        height: 30px;
+        background-color: #111;
+        margin: 5px 0px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+    }
+    
+    input:focus {
+        background-color: #000;
+        transform: scale(1.1);
+    }
+    
+    .salry input {
+        width: 18%;
+    }
+    
+    .pro input[type="submit"] {
+        background-color: rgba(139, 0, 139, 0.836);
+        border-radius: 5px;
+        cursor: pointer;
+        margin: auto;
+    }
+    
+    
+    .search {
+     width: 80%;
+     margin: auto;
+     border-radius: 4px;
+    
+    }
+    
+    .btton {
+       display: flex;
+       justify-content: space-between;
+        
+        
+    }
+    
+    .button button {
+        width: 40%;
+        height: 30px;
+        margin: 15px;
+    }
+    
+.table {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 100%;
+    overflow: scroll;
+}
+
+   .table table {
+        width: 100%;
+        height: 200px auto;
+        text-align: center;
+        color: white;
+        
+    
+    
+    }
+    
+    table th {
+        
+        font-size: 12px;
+    }
+    
+    th , td {
+        padding: 5px 10px;
+    }
+    
+    button {
+        width: 100px;
+        height: 25px;
+        background-color: rgba(139, 0, 139, 0.836);
+        border-radius: 5px;
+        color: wheat;
+        
+    
+    
+    }
+    
+    #total {
+        background-color: rgb(207, 8, 8);
+        padding: 8px 5px ;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+    
+    #total::before {
+        content: "total";
+    }
+    
+    
+    
+    
+    /* add to calss list  */
+    
+    
+    .add {
+        width: 100px;
+        height: 20px;
+        background-color: green;
+        color :white;
+        margin: 10px 400px ;
+        border-radius: 8px;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        top: 110px;
+        left: 300px;
+    
+    }
+    
+    
+    .add::before {
+        content: "تم الاضافه";
+    
+    }
+    
+
+}

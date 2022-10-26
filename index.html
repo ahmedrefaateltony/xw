@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ahmed.css">
+    <title>iphon</title>
+</head>
+<body>
+
+          <div class="h1">
+            <h1>ahmed refaat el tony</h1>
+          </div>
+    
+    <div class="pro">
+        <input type="text"id="title"placeholder="enter pro">
+        <div class="salry">
+            <input  onkeyup="gettotal()"type="number"placeholder="pric"id="pric">
+            <input  onkeyup="gettotal()"type="number"placeholder="texse"id="texse">
+            <input  onkeyup="gettotal()"type="number"placeholder="ads"id="ads">
+            <input  onkeyup="gettotal()"type="number"placeholder="discount"id="discount">
+            <small id="total">
+            </small>
+
+            </div>
+            
+            <input type="number"placeholder="count"id="count">
+            <input type="text"placeholder="category"id="catgory">
+            <input type="submit"value="creat"id="submit">
+    </div>
+      <p id="add"onclick="clear(this)"></p>
+    <div class="outbut">
+        <div class="search">
+            <input type="text"id='serach'placeholder="search"onkeyup="search1(this.value)">
+        </div>
+
+        <div class="button">
+            
+            <button id="title"onclick="search(this.id)">sreach by title</button>
+            <button id="catgory"onclick="search(this.id)">sreach by catgory</button>
+            
+        </div>
+    </div>
+<div class="table">
+    <table>
+        <tr>
+            <th> id</th>
+            <th> title</th>
+            <th> price</th>
+            <th> texes</th>
+            <th> ads</th>
+            <th> descount</th>
+            <th>catgory</th>
+            <th>total</th>
+            <th>delet</th>
+            <th> updat</th>
+            
+            
+        
+        
+        </tr>
+        <tbody id="tbody">
+    
+     
+    </tbody>
+    </table>
+</div>
+    <script src="pro.js"></script>
+</body>
+</html>
